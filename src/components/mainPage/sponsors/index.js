@@ -5,13 +5,12 @@ import gradientLine from "../../../styles/img/gradient-line.svg";
 import partner1 from "../../../styles/img/partner1.png";
 import partner2 from "../../../styles/img/partner2.png";
 import partner3 from "../../../styles/img/partner3.png";
-import partner4 from "../../../styles/img/partner4.png";
 import partner5 from "../../../styles/img/partner5.png";
 import partner6 from "../../../styles/img/partner6.png";
 import partner7 from "../../../styles/img/partner7.png";
 import { useInView } from 'react-intersection-observer';
 
-const partners = [partner1, partner2, partner3, partner4, partner5, partner6, partner7];
+const partners = [partner1, partner2, partner3, partner5, partner6, partner7];
 
 const OurSponsors = () => {
   const { ref, inView } = useInView({
